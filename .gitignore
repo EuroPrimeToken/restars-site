@@ -1,0 +1,13 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+*.swp
+.vscode/
+.idea/
+
+# Pacchetti / temporanei
+*.zip
+_patch*.py

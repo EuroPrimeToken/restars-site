@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 130" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Documenti · Documents">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4efe2"/><stop offset="1" stop-color="#e8dcb6"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="130" fill="url(#g)"/>
+  <g fill="none" stroke="#b8860b" stroke-opacity="0.55" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round" transform="translate(0,2)">
+    <path d="M58 30 h34 l18 18 v52 a4 4 0 0 1-4 4 H58 a4 4 0 0 1-4-4 V34 a4 4 0 0 1 4-4 Z"/><path d="M92 30 v18 h18 M66 70 h28 M66 84 h28"/>
+  </g>
+  <text x="80" y="120" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="6.2" fill="#a8820f" opacity="0.8">Documenti · Documents</text>
+</svg>
