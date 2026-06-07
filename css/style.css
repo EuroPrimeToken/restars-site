@@ -113,7 +113,8 @@ em.accent { font-style: italic; color: var(--gold-deep); }
 .brand img { width: 100px; height: 100px; }
 .brand-name { font-size: 2.7rem; line-height: 1; letter-spacing: -.01em; font-weight: 700; color: var(--gold-deep); }
 .brand-name b { color: var(--gold-deep); font-weight: 800; }
-.brand-sub { display: block; font-family: var(--ff-serif); font-size: 1.45rem; font-weight: 700;
+/* Sottotitolo "PropTech S.r.l." nell'header: nascosto (il logo mostra solo "REstars") */
+.brand-sub { display: none; font-family: var(--ff-serif); font-size: 1.45rem; font-weight: 700;
   letter-spacing: -.01em; text-transform: none; color: var(--gold-deep); margin-top: 3px; line-height: 1; }
 
 .nav-links { display: flex; align-items: center; gap: 6px; }
