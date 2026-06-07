@@ -366,7 +366,7 @@ html[lang="en"] [data-lang-en] { display: revert; }
   .brand { flex: 1; gap: 0; min-width: 0; }
   .brand > span { margin: 0 auto; }
   .brand img { width: 74px; height: 74px; }
-  .brand-name { font-size: 1.6rem; }
+  .brand-name { font-size: 1.95rem; }
   .brand-sub { font-size: 1.05rem; }
   .nav-links {
     position: fixed; inset: var(--header-h) 0 auto 0; flex-direction: column; align-items: stretch;
@@ -387,6 +387,12 @@ html[lang="en"] [data-lang-en] { display: revert; }
 @media (max-width: 440px) {
   .grid-4, .stats { grid-template-columns: 1fr; }
   .hero-float { display: none; }
+}
+
+/* Schermi molto stretti (≤360px): riduce la corona per evitare che il brand
+   tocchi il selettore lingua, mantenendo "REstars" a dimensione piena ed equidistante. */
+@media (max-width: 374px) {
+  .brand img { width: 56px; height: 56px; }
 }
 
 /* Reduced motion */
