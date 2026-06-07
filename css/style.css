@@ -32,7 +32,7 @@
   --r:   14px;
   --r-lg: 22px;
   --maxw: 1180px;
-  --header-h: 104px;
+  --header-h: 132px;
 
   /* Tipografia in stile DeA Capital: Raleway (titoli) + Open Sans (testo) */
   --ff-serif: "Raleway", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -109,12 +109,12 @@ em.accent { font-style: italic; color: var(--gold-deep); }
   border-bottom: 1px solid var(--line);
 }
 .nav { display: flex; align-items: center; justify-content: space-between; height: var(--header-h); }
-.brand { display: flex; align-items: center; gap: 16px; font-family: var(--ff-serif); font-weight: 700; }
-.brand img { width: 68px; height: 68px; }
-.brand-name { font-size: 1.85rem; line-height: 1; letter-spacing: -.01em; font-weight: 700; }
+.brand { display: flex; align-items: center; gap: 18px; font-family: var(--ff-serif); font-weight: 700; }
+.brand img { width: 88px; height: 88px; }
+.brand-name { font-size: 2.3rem; line-height: 1; letter-spacing: -.01em; font-weight: 700; }
 .brand-name b { color: var(--gold-deep); font-weight: 800; }
-.brand-sub { display: block; font-family: var(--ff-sans); font-size: .66rem; font-weight: 600;
-  letter-spacing: .24em; text-transform: uppercase; color: var(--muted); margin-top: 5px; }
+.brand-sub { display: block; font-family: var(--ff-sans); font-size: .74rem; font-weight: 600;
+  letter-spacing: .24em; text-transform: uppercase; color: var(--muted); margin-top: 6px; }
 
 .nav-links { display: flex; align-items: center; gap: 6px; }
 .nav-links a {
@@ -361,10 +361,10 @@ html[lang="en"] [data-lang-en] { display: revert; }
 }
 
 @media (max-width: 760px) {
-  :root { --header-h: 84px; }
+  :root { --header-h: 96px; }
   section { padding: 64px 0; }
-  .brand img { width: 52px; height: 52px; }
-  .brand-name { font-size: 1.5rem; }
+  .brand img { width: 62px; height: 62px; }
+  .brand-name { font-size: 1.72rem; }
   .nav-links {
     position: fixed; inset: var(--header-h) 0 auto 0; flex-direction: column; align-items: stretch;
     background: #fff; border-bottom: 1px solid var(--line); padding: 12px 24px 22px;
