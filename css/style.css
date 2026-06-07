@@ -363,8 +363,10 @@ html[lang="en"] [data-lang-en] { display: revert; }
 @media (max-width: 760px) {
   :root { --header-h: 110px; }
   section { padding: 64px 0; }
+  .brand { flex: 1; gap: 0; min-width: 0; }
+  .brand > span { margin: 0 auto; }
   .brand img { width: 74px; height: 74px; }
-  .brand-name { font-size: 1.95rem; }
+  .brand-name { font-size: 1.6rem; }
   .brand-sub { font-size: 1.05rem; }
   .nav-links {
     position: fixed; inset: var(--header-h) 0 auto 0; flex-direction: column; align-items: stretch;
