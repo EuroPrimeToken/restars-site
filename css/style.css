@@ -367,7 +367,7 @@ html[lang="en"] [data-lang-en] { display: revert; }
   .brand > span { margin: 0 auto; }
   /* margin-right negativo: compensa lo spazio trasparente del logo (~12%)
      così "REstars" risulta otticamente equidistante dalla corona e dal tasto IT/EN */
-  .brand img { width: 74px; height: 74px; margin-right: -9px; }
+  .brand img { width: 74px; height: 74px; margin-right: -16px; }
   .brand-name { font-size: 1.95rem; }
   .brand-sub { font-size: 1.05rem; }
   .nav-links {
@@ -394,7 +394,7 @@ html[lang="en"] [data-lang-en] { display: revert; }
 /* Schermi molto stretti (≤360px): riduce la corona per evitare che il brand
    tocchi il selettore lingua, mantenendo "REstars" a dimensione piena ed equidistante. */
 @media (max-width: 374px) {
-  .brand img { width: 56px; height: 56px; margin-right: -6px; }
+  .brand img { width: 56px; height: 56px; margin-right: -11px; }
 }
 
 /* Reduced motion */
